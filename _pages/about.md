@@ -2,7 +2,7 @@
 ---
 layout: post
 permalink: /about/
-title: Blogging Like a Hacker
+title: About
 ---
 
 # About
