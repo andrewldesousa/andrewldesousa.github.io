@@ -1,10 +1,8 @@
 
 ---
+layout: archive
+title: "About"
 permalink: /about/
-scope:
-  path: "/about/"
-  type: pages
-layout: single
 author_profile: true
 ---
 
