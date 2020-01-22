@@ -1,13 +1,11 @@
 
 ---
-defaults:
-  - permalink: /about/
-  - scope:
-      path: "/about/"
-      type: pages
-    values:
-      layout: single
-      author_profile: true
+permalink: /about/
+scope:
+  path: "/about/"
+  type: pages
+layout: single
+author_profile: true
 ---
 
 # About
