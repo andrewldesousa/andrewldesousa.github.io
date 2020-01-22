@@ -12,5 +12,5 @@ To start with, let's layout the definion of a system of linear equations, which 
 
 
 $$
-\sum_n (x)
+\[ a_1^2 + a_2^2 = a_3^2 \]
 $$
