@@ -16,17 +16,17 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Andrew's blog"
+title                    : "Andrew's Blog "
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Andrew Desousa"
 description              : "A blog about artificial intelligence, software engineering, and academia"
 url                      : "https://andrewldesousa.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
+baseurl                  : "/andrewldesousa"
 repository               : "andrewldesousa/andrewldesousa.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : "Andrew's blog"
+masthead_title           : " "
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -181,6 +181,13 @@ keep_files:
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
+defaults:
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
 
 # Conversion
 markdown: kramdown
