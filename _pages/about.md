@@ -1,11 +1,12 @@
-
 ---
 layout: archive
 title: "About"
 permalink: /about/
 author_profile: true
+redirect_from:
+  - /bio
 ---
 
-# About
+{% include base_path %}
 
-This should describe what the blog is about.
+I'm Andrew.
