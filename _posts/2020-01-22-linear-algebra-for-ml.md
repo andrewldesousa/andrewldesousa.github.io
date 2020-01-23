@@ -52,3 +52,14 @@ Here is a system and it's matrix representation.
 \end{bmatrix}
 \]
 \end{document}
+
+
+Then, that brings us to the matrix equation.
+
+$$
+Ax = b
+$$
+
+The way to think about this equation is this: given a vector x and matrix A, apply matrix A to x and out comes b. This is known as a Linear transformation. A linear transformation in Linear Algebra occurs whenever you apply a Linear System to an object, where an object can be a vector, matrix, or tensor. The image of a linear transformation is b, which is the result of applying A to x.
+
+
