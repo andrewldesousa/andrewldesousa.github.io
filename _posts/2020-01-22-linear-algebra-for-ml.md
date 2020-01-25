@@ -21,11 +21,23 @@ If there were a term in the equation with an exponent, it would no longer be con
 ### Scalars, Vectors, Matrices, and Tensors
 Scalars, vectors, matrices, and tenors are some terms you should become comfortable with when dealing with Linear Algebra.
 
-\begin{tabular}{|1|l|}
-Apples & Green \\
-Strawberries & Red \\
-Oranges & Orange \\
+\begin{center}
+ \begin{tabular}{||c c c c||} 
+ \hline
+ Col1 & Col2 & Col2 & Col3 \\ [0.5ex] 
+ \hline\hline
+ 1 & 6 & 87837 & 787 \\ 
+ \hline
+ 2 & 7 & 78 & 5415 \\
+ \hline
+ 3 & 545 & 778 & 7507 \\
+ \hline
+ 4 & 545 & 18744 & 7560 \\
+ \hline
+ 5 & 88 & 788 & 6344 \\ [1ex] 
+ \hline
 \end{tabular}
+\end{center}
 
 
 
