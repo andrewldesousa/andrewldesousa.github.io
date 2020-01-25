@@ -21,37 +21,25 @@ If there were a term in the equation with an exponent, it would no longer be con
 ### Scalars, Vectors, Matrices, and Tensors
 Scalars, vectors, matrices, and tenors are some terms you should become comfortable with when dealing with Linear Algebra.
 
-| Objects       | Definitions          | Examples     |
-| ------------- |:-------------:       | -----:       |
-| Scalar        | A simple number      | 3            |
-| Vector       | An array of numbers  | [3,3,2,9,-2] |
-| Matrix        | A grid of numbers    |              |
-| Tensor     | A 3d array or greater |             |
+\begin{tabular}{|1|l|}
+Apples & Green \\
+Strawberries & Red \\
+Oranges & Orange \\
+\end{tabular}
+
 
 
 How do these terms get applied? As I said earlier, a solution to a linear system is a vector. Also, a way to nicely represent linear systems is as a matrix, where each entry corresponds to a coeffiecient in the linear system and each row represents a different equation in the system.
 
 Here is a system and it's matrix representation.
 
-\documentclass{article}
-\usepackage{amsmath}
-\begin{document}
-\[
+
 \begin{bmatrix}
     x_{11}       & x_{12} & x_{13} & \dots & x_{1n} \\
     x_{21}       & x_{22} & x_{23} & \dots & x_{2n} \\
     \hdotsfor{5} \\
     x_{d1}       & x_{d2} & x_{d3} & \dots & x_{dn}
 \end{bmatrix}
-=
-\begin{bmatrix}
-    x_{11} & x_{12} & x_{13} & \dots  & x_{1n} \\
-    x_{21} & x_{22} & x_{23} & \dots  & x_{2n} \\
-    \vdots & \vdots & \vdots & \ddots & \vdots \\
-    x_{d1} & x_{d2} & x_{d3} & \dots  & x_{dn}
-\end{bmatrix}
-\]
-\end{document}
 
 
 Then, that brings us to the matrix equation.
