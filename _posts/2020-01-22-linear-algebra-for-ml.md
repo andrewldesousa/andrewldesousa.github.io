@@ -8,20 +8,20 @@ title: "Linear Algebra for Machine Learning"
 
 ## Linear Systems and Basic Definitions 
 
-To start with, let's layout a definion for a linear equation. A linear equation has this form ($$x_n$$ represents input parameters, $$a_n$$ represents coefficients or weights that apply to the input parameters):
+To start with, let's layout a definion for a linear equation. A linear equation maintains this form ($$x_n$$ represents input parameters, $$a_n$$ represents coefficients or weights that scale the input parameters):
 
 $$
 a_1x_1 + a_2x_2 + ... + a_nx_n = y
 $$
 
-If you were plot any linear equation, you would find that all points fall on the same line. This defines a linear relationship. If there were a term in the equation with a degree greater than 1 (for example: $$a_nx_n^2$$), the equation would no longer be considered linear because the points would no longer all lie on a single line.
+If you were the output of a linear equation with respect to its inputs, you would find that all points fall on the same line. This defines a linear relationship. If there were a term in the equation with a degree greater than 1 (for example: $$a_nx_n^2$$), the equation would no longer be considered linear because the points would no longer all lie on a single line.
 
-A system of linear equations is a set of equations in linear form with respect to the same input parameters. A set of values that satisfies all equations in a system is solution to that system. A set of values corresponding to a solution are represented as vectors in Linear Algebra.
+A system of linear equations is a set of equations in linear form with respect to the same input parameters. A set of values that satisfies all equations in a system is solution to that system. And a solution refers to a point in which all lines of a system intersect. A set of input parameters corresponding to a solution are represented as vectors in Linear Algebra.
 
 ### Scalars, Vectors, Matrices, and Tensors
 Scalars, vectors, matrices, and tensors are terms you must become comfortable with when dealing with Linear Algebra and Machine Learning.
 
-How do these terms get applied? As I said earlier, a solution to a linear system is gets represented by vectors. Linear systems get represented by matrices where each row corresponds to a different equation in the system and each entry corresponds to a coefficient in that row's equation.
+How do these terms get applied? As I said earlier, a solution to a linear system gets represented as vectors. Linear systems get represented by matrices, where each row corresponds to a different equation in the system and each entry corresponds to a coefficient in that row's equation. 
 
 Here is a system and it's matrix representation.
 
