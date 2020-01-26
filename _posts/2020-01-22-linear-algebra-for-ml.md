@@ -14,12 +14,12 @@ $$
 a_1x_1 + a_2x_2 + ... + a_nx_n = y
 $$
 
-If you were plot every the outputs of the equation, you would find that they all fall on the same line. Simply put, the relationship of $$x_n$$ to $$y$$ is linear. If there were a term in the equation with a degree greater than 1, the equation would no longer be considered linear because you would see by plotting the equation that it no longer results in a line. 
+If you were plot any linear equation, you would find that all points fall on the same line. This defines a linear relationship. If there were a term in the equation with a degree greater than 1 (for example: $$a_nx_n^2$$), the equation would no longer be considered linear because the points would no longer all lie on a single line.
 
-A system of linear equations is a set of equations in linear form with respect to the same input parameters. A set of values that satisfy each equation in a system is a valid solution to that system. The set of values that correspond to a solution are represented as vectors in Linear Algebra.
+A system of linear equations is a set of equations in linear form with respect to the same input parameters. A set of values that satisfies all equations in a system is solution to that system. A set of values corresponding to a solution are represented as vectors in Linear Algebra.
 
 ### Scalars, Vectors, Matrices, and Tensors
-Scalars, vectors, matrices, and tenors are some terms you should become comfortable with when dealing with Linear Algebra.
+Scalars, vectors, matrices, and tensors are terms you must become comfortable with when dealing with Linear Algebra and Machine Learning.
 
 How do these terms get applied? As I said earlier, a solution to a linear system is gets represented by vectors. Linear systems get represented by matrices where each row corresponds to a different equation in the system and each entry corresponds to a coefficient in that row's equation.
 
