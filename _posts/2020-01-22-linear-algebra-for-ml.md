@@ -21,27 +21,6 @@ If there were a term in the equation with a degree greater than 1, the equation 
 ### Scalars, Vectors, Matrices, and Tensors
 Scalars, vectors, matrices, and tenors are some terms you should become comfortable with when dealing with Linear Algebra.
 
-$$
-\begin{center}
- \begin{tabular}{||c c c c||} 
- \hline
- Col1 & Col2 & Col2 & Col3 \\ [0.5ex] 
- \hline\hline
- 1 & 6 & 87837 & 787 \\ 
- \hline
- 2 & 7 & 78 & 5415 \\
- \hline
- 3 & 545 & 778 & 7507 \\
- \hline
- 4 & 545 & 18744 & 7560 \\
- \hline
- 5 & 88 & 788 & 6344 \\ [1ex] 
- \hline
-\end{tabular}
-\end{center}
-$$
-
-
 How do these terms get applied? As I said earlier, a solution to a linear system is a vector. Also, a way to nicely represent linear systems is as a matrix, where each entry corresponds to a coeffiecient in the linear system and each row represents a different equation in the system.
 
 Here is a system and it's matrix representation.
