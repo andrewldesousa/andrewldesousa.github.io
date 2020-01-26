@@ -6,26 +6,30 @@ title: "Linear Algebra for Machine Learning"
   src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
 </script>
 
-
-
 ## Linear Systems and Basic Definitions 
 
-To start with, let's layout the definion of a system of linear equations. An linear equation has this form ($$x_n$$ represents coefficients, $$a_n$$represent variables):
+To start with, let's layout a definion for a linear equation. A linear equation has this form ($$x_n$$ represents input parameters, $$a_n$$ represents coefficients or weights that apply to the input parameters):
 
 $$
-x_1a_1 + x_2a_2 + ... + x_na_n = y
+a_1x_1 + a_2x_2 + ... + a_nx_n = y
 $$
 
-If there were a term in the equation with a degree greater than 1, the equation would no longer be considered linear. A system of linear equations would then just be a set of equations in linear form, each with the same set of variables. A set of values that satisfies each equation in the system would constitute a solution to the system. If the system has more than one solution, then there would be multiple solutions in the solution set. A solution to a system of linear equations is represented by vectors in Linear Algebra.
+If you were plot every the outputs of the equation, you would find that they all fall on the same line. Simply put, the relationship of $$x_n$$ to $$y$$ is linear. If there were a term in the equation with a degree greater than 1, the equation would no longer be considered linear because you would see by plotting the equation that it no longer results in a line. 
+
+A system of linear equations is a set of equations in linear form with respect to the same input parameters. A set of values that satisfy each equation in a system is a valid solution to that system. The set of values that correspond to a solution are represented as vectors in Linear Algebra.
 
 ### Scalars, Vectors, Matrices, and Tensors
 Scalars, vectors, matrices, and tenors are some terms you should become comfortable with when dealing with Linear Algebra.
 
-How do these terms get applied? As I said earlier, a solution to a linear system is a vector. Also, a way to nicely represent linear systems is as a matrix, where each entry corresponds to a coeffiecient in the linear system and each row represents a different equation in the system.
+How do these terms get applied? As I said earlier, a solution to a linear system is gets represented by vectors. Linear systems get represented by matrices where each row corresponds to a different equation in the system and each entry corresponds to a coefficient in that row's equation.
 
 Here is a system and it's matrix representation.
 
 $$
+2x_1 + 3x_2 = 1
+2x_1 + 6x_2 = 3
+
+
 \begin{bmatrix}
     x_{11}       & x_{12} & x_{13} & \dots & x_{1n} \\
     x_{21}       & x_{22} & x_{23} & \dots & x_{2n} \\
