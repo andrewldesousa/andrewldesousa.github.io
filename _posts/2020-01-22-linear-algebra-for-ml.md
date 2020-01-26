@@ -1,5 +1,5 @@
 ---
-title: "Linear Algebra for ML"
+title: "Linear Algebra for Machine Learning"
 ---
 
 <script type="text/javascript" async
@@ -10,13 +10,13 @@ title: "Linear Algebra for ML"
 
 ## Linear Systems and Basic Definitions 
 
-To start with, let's layout the definion of a system of linear equations. An linear equation has this form (x represents coefficients and a symbols represent variables):
+To start with, let's layout the definion of a system of linear equations. An linear equation has this form ($$x_n$$ represents coefficients, $$a_n$$represent variables):
 
 $$
 x_1a_1 + x_2a_2 + ... + x_na_n = y
 $$
 
-If there were a term in the equation with an exponent, it would no longer be considered a linear equation. A system of linear equations would then just be a set of equations in linear form, each with the same set of variables. A set of values that satisfies each equation in the system would constitute a solution to the system. If the system has more than one solution, then there would be multiple solutions in the solution set. A solution to a system of linear equations is represented by vectors in Linear Algebra.
+If there were a term in the equation with a degree greater than 1, the equation would no longer be considered linear. A system of linear equations would then just be a set of equations in linear form, each with the same set of variables. A set of values that satisfies each equation in the system would constitute a solution to the system. If the system has more than one solution, then there would be multiple solutions in the solution set. A solution to a system of linear equations is represented by vectors in Linear Algebra.
 
 ### Scalars, Vectors, Matrices, and Tensors
 Scalars, vectors, matrices, and tenors are some terms you should become comfortable with when dealing with Linear Algebra.
