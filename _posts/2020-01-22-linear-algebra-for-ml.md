@@ -25,10 +25,10 @@ A system of linear equations is a set of equations in linear form with respect t
 #### Example 1
 
 $$
-1x_1 + 3x_2 = 1
-2x_1 + 6x_2 = 4
+1x_1 + 3x_2 = 1 \\
+2x_1 + 6x_2 = 4 \\
 
-Solution: x_1 = 1 and x_2 = 2
+x_1 = 1 and x_2 = 2 form a valid solution to this system
 $$
 
 In the example above, there is only one valid solution to the problem.
