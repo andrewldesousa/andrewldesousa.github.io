@@ -25,18 +25,20 @@ A system of linear equations is a set of equations in linear form with respect t
 #### Example 1
 
 $$
-1x_1 + 3x_2 = 1 \\
+1x_1 + 3x_2 = 2 \\
 2x_1 + 6x_2 = 4 \\
-
-\textrm{Solution: } x_1 = 1 \textrm{ and } x_2 = 2 
+\\
+x_1 = -1 \textrm{ and } x_2 = 1 
 $$
 
-In the example above, there is only one valid solution to the problem.
+In the example above, there is only one valid solution to the problem. By plotting the equations, you would find a graph consisting of two separate lines. At (-1, 1) would be the point of intersection between both of the lines.
 
 ### Scalars, Vectors, Matrices, and Tensors
 Scalars, vectors, matrices, and tensors are terms you must become comfortable with when dealing with Linear Algebra and Machine Learning.
 
-How do these terms get applied? A solution to a linear system (or a set of input paramaters that satisfy each equation) gets represented as a vector. Linear systems get represented by matrices, where each row corresponds to a different equation in the system and each entry corresponds to a coefficient in that row's equation. 
+How do these terms get applied? A solution to a linear system (or a set of input paramaters that satisfy each equation) gets represented as a vector. In example 1, the solution would be a vector $$x = \begin{bmatrix}-1 \\ 1\end{bmatrix}$$.
+
+Linear systems get represented by matrices, where each row corresponds to a different equation in the system and each entry corresponds to a coefficient in that row's equation. 
 
 Here is a system and it's matrix representation.
 
