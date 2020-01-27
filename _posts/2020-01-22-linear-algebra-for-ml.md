@@ -36,22 +36,16 @@ In the example above, there is only one valid solution to the problem. By plotti
 ### Scalars, Vectors, Matrices, and Tensors
 Scalars, vectors, matrices, and tensors are terms you must become comfortable with when dealing with Linear Algebra and Machine Learning.
 
-How do these terms get applied? A solution to a linear system (or a set of input paramaters that satisfy each equation) gets represented as a vector. In example 1, the solution would be a vector $$x = \begin{bmatrix}-1 \\ 1\end{bmatrix}$$.
+How do these terms get applied? A solution to a linear system (or a set of input paramaters that satisfy each equation) gets represented as a vector. In example 1, the solution would be $$x = \begin{bmatrix}-1 \\ 1\end{bmatrix}$$.
 
 Linear systems get represented by matrices, where each row corresponds to a different equation in the system and each entry corresponds to a coefficient in that row's equation. 
 
-Here is a system and it's matrix representation.
+Here is a matrix representation for the system of equations in example 1.
 
 $$
-2x_1 + 3x_2 = 1
-2x_1 + 6x_2 = 3
-
-
 \begin{bmatrix}
-    x_{11}       & x_{12} & x_{13} & \dots & x_{1n} \\
-    x_{21}       & x_{22} & x_{23} & \dots & x_{2n} \\
-    ... \\
-    x_{d1}       & x_{d2} & x_{d3} & \dots & x_{dn}
+    1 & 3 \\
+    2 & 4 \\
 \end{bmatrix}
 $$
 
