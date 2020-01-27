@@ -38,26 +38,26 @@ Scalars, vectors, matrices, and tensors are terms you must become comfortable wi
 
 How do these terms get applied? A solution to a linear system (or a set of input paramaters that satisfy each equation) gets represented as a vector. In example 1, the solution would be $$x = \begin{bmatrix}-1 \\ 1\end{bmatrix}$$.
 
-Linear systems get represented by matrices, where each row corresponds to a different equation in the system and each entry corresponds to a coefficient in that row's equation. 
+Linear systems get represented by matrices, where each row corresponds to a different equation in the system and each entry corresponds to a coefficient in that row's equation. Matrix equations often get represented in this form:
+
+$$
+Ax = b
+$$
+
+where $$A$$ is the matrix to with each entry corresponding to a weight $$a_n$$, the input values gets $$x$$, and 
 
 Here is a matrix representation for the system of equations in example 1.
 
 $$
 \begin{bmatrix}
     1 & 3 \\
-    2 & 4 \\
+    2 & 6 \\
 \end{bmatrix}
 $$
 
 Then, that brings us to the matrix equation.
 
-$$
-Ax = b
-$$
-
 The way to think about this equation is this: given a vector x and matrix A, apply matrix A to x and out comes b. This is known as a Linear transformation. A linear transformation in Linear Algebra occurs whenever you apply a Linear System to an object, where an object can be a vector, matrix, or tensor. The image of a linear transformation is b, which is the result of applying A to x.
-
-
 
 ## Matrix operations
 
