@@ -6,22 +6,37 @@ title: "Linear Algebra for Machine Learning"
   src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
 </script>
 
+This post series is designed for people who want to do Machine Learning, but find that the Linear Algebra involved is making it more difficult than it needs to be. This series contains the most useful Linear Algebra concepts used in Machine Learning. By mastering these concepts, the Linear Algebra in Machine Learning will not hinder your ability to understand these learning algorithms at a deep level.
+
 ## Linear Systems and Basic Definitions 
 
-To start with, let's layout a definion for a linear equation. A linear equation maintains this form ($$x_n$$ represents input parameters, $$a_n$$ represents coefficients or weights that scale the input parameters):
+Let's layout a definion for a linear equation. A linear equation maintains this form:
 
 $$
 a_1x_1 + a_2x_2 + ... + a_nx_n = y
 $$
 
-If you were the output of a linear equation with respect to its inputs, you would find that all points fall on the same line. This defines a linear relationship. If there were a term in the equation with a degree greater than 1 (for example: $$a_nx_n^2$$), the equation would no longer be considered linear because the points would no longer all lie on a single line.
+where $$x_n$$ represents input parameters and $$a_n$$ represents coefficients or weights that scale the input parameters.
 
-A system of linear equations is a set of equations in linear form with respect to the same input parameters. A set of values that satisfies all equations in a system is solution to that system. And a solution refers to a point in which all lines of a system intersect. A set of input parameters corresponding to a solution are represented as vectors in Linear Algebra.
+If you were to plot each valid set of $$x$$ variables for a fixed weights and a fixed $$y$$, you would find that the graph results in a set of points which all fall on a single line. If there were a term in the equation with a degree greater than 1 (for example: $$a_nx_n^2$$), the equation would no longer be considered linear because the points would no longer all lie on a straight line.
+
+A system of linear equations is a set of equations in linear form with respect to the same input parameters. A set of input paramters that satisfy each equation in a system gets called a solution to that system. Graphically speaking, a solution refers to a point in which all the lines of a system intersect. 
+
+#### Example 1
+
+$$
+1x_1 + 3x_2 = 1
+2x_1 + 6x_2 = 4
+
+Solution: x_1 = 1 and x_2 = 2
+$$
+
+In the example above, there is only one valid solution to the problem.
 
 ### Scalars, Vectors, Matrices, and Tensors
 Scalars, vectors, matrices, and tensors are terms you must become comfortable with when dealing with Linear Algebra and Machine Learning.
 
-How do these terms get applied? As I said earlier, a solution to a linear system gets represented as vectors. Linear systems get represented by matrices, where each row corresponds to a different equation in the system and each entry corresponds to a coefficient in that row's equation. 
+How do these terms get applied? A solution to a linear system (or a set of input paramaters that satisfy each equation) gets represented as a vector. Linear systems get represented by matrices, where each row corresponds to a different equation in the system and each entry corresponds to a coefficient in that row's equation. 
 
 Here is a system and it's matrix representation.
 
