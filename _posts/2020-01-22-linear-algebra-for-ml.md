@@ -28,7 +28,7 @@ $$
 1x_1 + 3x_2 = 1 \\
 2x_1 + 6x_2 = 4 \\
 
-x_1 = 1 \text{and} x_2 = 2 \text{form a valid solution to this system}
+x_1 = 1 \textrm{and} x_2 = 2 \textrm{form a valid solution to this system}
 $$
 
 In the example above, there is only one valid solution to the problem.
