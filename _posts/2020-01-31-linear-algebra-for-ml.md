@@ -48,11 +48,13 @@ A =
 \end{bmatrix}
 $$
 
+That brings us to the infamous matrix equation. By convention, matrix equations thus looks like this:
+
 $$
 Ax = b
 $$
 
-where $$A$$ is the matrix to with each entry corresponding to a weight $$a_n$$, the input values gets $$x$$, and 
+where $$A$$ is the matrix to with each entry corresponding to a weight $$a_n$$, the input values gets $$x$$, and $$y$$ is the solution to the matrix equation.
 
 Here is a matrix representation for the system of equations in example 1.
 
