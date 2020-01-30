@@ -54,20 +54,7 @@ $$
 Ax = b
 $$
 
-where $$A$$ is the matrix to with each entry corresponding to a weight $$a_n$$, the input values gets $$x$$, and $$y$$ is the solution to the matrix equation.
-
-Here is a matrix representation for the system of equations in example 1.
-
-$$
-\begin{bmatrix}
-    1 & 3 \\
-    2 & 6 \\
-\end{bmatrix}
-$$
-
-Then, that brings us to the matrix equation.
-
-The way to think about this equation is this: given a vector x and matrix A, apply matrix A to x and out comes b. This is known as a Linear transformation. A linear transformation in Linear Algebra occurs whenever you apply a Linear System to an object, where an object can be a vector, matrix, or tensor. The image of a linear transformation is b, which is the result of applying A to x.
+where $$A$$ is the matrix to with each entry corresponding to a weight $$a_n$$, the input values gets $$x$$, and $$y$$ is the solution to the matrix equation. The way to think about this equation is this: given a vector $$x$$ and matrix $$A$$, apply matrix A to x and out comes $$b$$. This mapping of $$x$$ to $$b$$ through application of $$A$$ is called Linear transformation. A linear transformation in Linear Algebra occurs whenever you apply a Linear System to an object, where an object can be a vector, matrix, or tensor. The image of a linear transformation is b, which is the result of applying A to x.
 
 ## Matrix operations
 
