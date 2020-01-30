@@ -6,19 +6,19 @@ title: "Linear Algebra for Machine Learning"
   src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
 </script>
 
-This post series is designed for people who want to do Machine Learning, but find that the Linear Algebra involved is making it more difficult than it needs to be. This series contains the most useful Linear Algebra concepts used in Machine Learning. By mastering these concepts, the Linear Algebra in Machine Learning will not hinder your ability to understand these learning algorithms at a deep level.
+This series contains the most useful Linear Algebra concepts used in Machine Learning. By mastering these concepts, the Linear Algebra in Machine Learning will not hinder your ability to understand these learning algorithms at a deep level. This post series is designed for people who want to do Machine Learning and don't quite meet the Linear Algebra prequisites or simply need a refresher because it has been a while since he/she has seen Linear Algebra. 
 
 ## Linear Systems and Basic Definitions 
 
-Let's layout a definion for a linear equation. A linear equation maintains this form:
+Let's layout a definion for a linear equation. Here is its form:
 
 $$
 a_1x_1 + a_2x_2 + ... + a_nx_n = y
 $$
 
-where $$x_n$$ represents input parameters and $$a_n$$ represents coefficients or weights that scale the input parameters.
+where $$x_n$$ represents input parameters and $$a_n$$ represents coefficients or weights that scale the input parameters. Input paramaters can be thought of as the values that you pass to a function.
 
-If you were to plot each valid set of $$x$$ variables for a fixed weights and a fixed $$y$$, you would find that the graph results in a set of points which all fall on a single line. If there were a term in the equation with a degree greater than 1 (for example: $$a_nx_n^2$$), the equation would no longer be considered linear because the points would no longer all lie on a straight line.
+If you were to plot each valid set of $$x$$ variables for a fixed set of weights and a fixed $$y$$ value, you would find that the graph results in a set of points which could all be fit onto a line. Any function that doesn't fit on a line is not a linear function. If there were a term in the equation with a degree greater than 1 (for example: $$a_nx_n^2$$), the equation would no longer be considered linear.
 
 A system of linear equations is a set of equations in linear form with respect to the same input parameters. A set of input paramters that satisfy each equation in a system gets called a solution to that system. Graphically speaking, a solution refers to a point in which all the lines of a system intersect. 
 
@@ -31,14 +31,22 @@ $$
 x_1 = -1 \textrm{ and } x_2 = 1 
 $$
 
-In the example above, there is only one valid solution to the problem. By plotting the equations, you would find a graph consisting of two separate lines. At (-1, 1) would be the point of intersection between both of the lines.
+In the example above, there is one solution to the problem. By plotting both lines (one for each equation), you would find that the lines intersect at point (-1, 1).
 
 ### Scalars, Vectors, Matrices, and Tensors
 Scalars, vectors, matrices, and tensors are terms you must become comfortable with when dealing with Linear Algebra and Machine Learning.
 
-How do these terms get applied? A solution to a linear system (or a set of input paramaters that satisfy each equation) gets represented as a vector. In example 1, the solution would be $$x = \begin{bmatrix}-1 \\ 1\end{bmatrix}$$.
+How do these terms get applied? Well, a solution to a linear system (or a set of input paramaters that satisfy each equation of a sytem) gets represented as a vector. In example 1, the solution would be $$x = \begin{bmatrix}-1 \\ 1\end{bmatrix}$$.
 
-Linear systems get represented by matrices, where each row corresponds to a different equation in the system and each entry corresponds to a coefficient in that row's equation. Matrix equations often get represented in this form:
+Systems of equations get represented by matrices, where each row corresponds to a different equation in the system and each entry corresponds to a coefficient in that row's equation. The system in example 1 would get represented like this:
+
+$$
+A = 
+\begin{bmatrix}
+  1 & 2 \\ 
+  2 & 6 
+\end{bmatrix}
+$$
 
 $$
 Ax = b
