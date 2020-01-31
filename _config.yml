@@ -109,7 +109,10 @@ analytics:
 author:
   name             : "Andrew Desousa"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Software Engineer/MSc Computer Science @ TU Munich"
+  bio              : "Software Engineer
+                      MSc Computer Science @ TU Munich
+                      Podcast lover
+                      "
   location         : "Munich, Germany"
   email            : "desousa.andrew11@gmail.com"
   links:
