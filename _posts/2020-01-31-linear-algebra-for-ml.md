@@ -26,7 +26,7 @@ A system of linear equations is a set of equations in linear form with respect t
 
 $$
 1x_1 + 3x_2 = 2 \\
-2x_1 + 6x_2 = 4 \\
+1x_1 + 6x_2 = 5 \\
 \\
 x_1 = -1 \textrm{ and } x_2 = 1 
 $$
@@ -45,8 +45,8 @@ Systems of equations get represented by matrices, where each row corresponds to 
 $$
 A = 
 \begin{bmatrix}
-  1 & 2 \\ 
-  2 & 6 
+  1 & 3 \\ 
+  1 & 6 
 \end{bmatrix}
 $$
 
