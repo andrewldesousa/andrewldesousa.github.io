@@ -59,7 +59,7 @@ $$
 where $$A$$ is the matrix, $$x$$ is the input vector, and $$b$$ is the solution vector. This mapping of $$x$$ to $$b$$ through application of $$A$$ is called a Linear transformation. A linear transformation in Linear Algebra occurs whenever you apply a linear system to an object (an object can be a vector, matrix, or tensor). The image of a linear transformation is $$b$$, the output of applying $$A$$ to $$x$$.
 
 ## Matrix operations
-Take a break here if you need to. Matrix operations, which don't require exceptional mathmatecal abilties to understand, are probably the most important thing to understand in Linear Algebra.
+Matrix operations, which don't require exceptional mathmatecal abilties to understand, are probably the most important thing to understand in Linear Algebra.
 
 Now that we've laid out the foundation to Linear Algebra, let's describe how operations among objects like matrices and vectors occur. Like normal operations between scalar values, matrices can be added, multiplied, inverted (though not all can be inverted), and squared.
 
