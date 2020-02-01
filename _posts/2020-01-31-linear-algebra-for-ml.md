@@ -34,7 +34,7 @@ $$
 
 In the example above, there is exactly one solution to the problem. By plotting both lines (one for each equation), you would find that the lines intersect at point (-1, 1) and only at point (-1, 1).
 
-<img src="../img/la_part1_1.png" width=60 height=60/>
+<div style="text-align:center"><img src="../img/la_part1_1.png" /></div>
 
 Systems don't always have solutions and those systems are called inconsistent. Systems with solutions are called consistent. Consistent systems can be divided into two sets: systems with one solution and systems with infinitely many solutions.
 
