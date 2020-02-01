@@ -16,11 +16,15 @@ $$
 a_1x_1 + a_2x_2 + ... + a_nx_n = y
 $$
 
-where $$x_n$$ represents input parameters and $$a_n$$ represents coefficients. Input paramaters are the values that get passed to a function. Coefficients are simply weights that scale the values provided by the input.
+where $$x_n$$ represents input parameters and $$a_n$$ represents coefficients. Input paramaters are simply the values that get passed to a function. Coefficients are weights that scale the input parameters.
 
-If you were to plot each valid set of $$x$$ inputs for a fixed set of weights and a fixed $$y$$ value, you would find that the graph results in a set of points which could all be fit onto a line. That is simply what it means for an equation to be linear, and any function that doesn't fit on a line is not a linear function. If there were a term in the equation with a degree greater than 1 (for example: $$a_nx_n^2$$), the plot of the function would not be a line and the equation would not be linear.
+If you were to plot each valid set of $$x$$ inputs for a fixed set of weights and a fixed $$y$$ value, you would find that the graph of the function results in a set of points which could all fit onto a line. That is precisely what it means for an equation to be linear. Any function that doesn't fit on a line is not a linear function. So, when an equation has a term with a degree greater than 1 (for example: $$a_nx_n^2$$), the function would no longer be linear since the plot of the function would not be a line.
 
-A system of linear equations is a set of equations in linear form with respect to the same input parameters. A set of input paramters that satisfy each equation in a system gets called a solution to that system. Graphically speaking, a solution refers to a point in which all the lines of a system intersect.
+A system of linear equations is a set of equations in linear form with respect to the same input parameters. A set of input parameters that satisfies each equation in a system gets called a solution to that system. Graphically speaking, a solution refers to a point in which all the lines of a system intersect.
+
+![Intersection](../img/la_part1_1.png)
+
+
 
 #### Example 1
 
