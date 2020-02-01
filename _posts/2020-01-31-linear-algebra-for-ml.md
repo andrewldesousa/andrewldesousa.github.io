@@ -22,9 +22,6 @@ If you were to plot each valid set of $$x$$ inputs for a fixed set of weights an
 
 A system of linear equations is a set of equations in linear form with respect to the same input parameters. A set of input parameters that satisfies each equation in a system gets called a solution to that system. Graphically speaking, a solution refers to a point in which all the lines of a system intersect.
 
-![Intersection](../img/la_part1_1.png)
-
-
 
 #### Example 1
 
@@ -36,6 +33,8 @@ x_1 = -1 \textrm{ and } x_2 = 1
 $$
 
 In the example above, there is exactly one solution to the problem. By plotting both lines (one for each equation), you would find that the lines intersect at point (-1, 1) and only at point (-1, 1).
+
+<img src="../img/la_part1_1.png" width=60 height=60/>
 
 Systems don't always have solutions and those systems are called inconsistent. Systems with solutions are called consistent. Consistent systems can be divided into two sets: systems with one solution and systems with infinitely many solutions.
 
