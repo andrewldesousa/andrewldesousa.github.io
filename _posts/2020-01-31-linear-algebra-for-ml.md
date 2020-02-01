@@ -6,7 +6,7 @@ title: "Linear Algebra for Machine Learning (Part 1)"
   src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
 </script>
 
-This series contains the most useful Linear Algebra concepts used in Machine Learning. By mastering these concepts, the Linear Algebra involved in Machine Learning will get in your way when it comes to understanding ML algorithms at a deep level. This post series is designed for people who want to do Machine Learning and either don't quite meet the Linear Algebra prequisites or simply need a refresher because it has been a while since he/she has seen Linear Algebra.
+This series contains the most useful Linear Algebra concepts used in Machine Learning. By mastering these concepts, the Linear Algebra involved in Machine Learning will not get in your way when it comes to understanding ML algorithms at a deep level. This post series is designed for people who want to do Machine Learning and either don't quite meet the Linear Algebra prequisites or haven't has seen Linear Algebra in a while and he/she needs a refresher.
 
 ## Linear Systems and Basic Definitions 
 
@@ -59,7 +59,7 @@ $$
 where $$A$$ is the matrix, $$x$$ is the input vector, and $$b$$ is the solution vector. This mapping of $$x$$ to $$b$$ through application of $$A$$ is called a Linear transformation. A linear transformation in Linear Algebra occurs whenever you apply a linear system to an object (an object can be a vector, matrix, or tensor). The image of a linear transformation is $$b$$, the output of applying $$A$$ to $$x$$.
 
 ## Matrix operations
-Matrix operations, which don't require exceptional mathmatecal abilties to understand, are probably the most important thing to understand in Linear Algebra.
+Matrix operations, which don't require exceptional mathmatical abilties to understand, are probably the most important thing to understand in Linear Algebra.
 
 Now that we've laid out the foundation to Linear Algebra, let's describe how operations among objects like matrices and vectors occur. Like normal operations between scalar values, matrices can be added, multiplied, inverted (though not all can be inverted), and squared.
 
