@@ -35,15 +35,16 @@ $$
 In the example above, there is exactly one solution to the problem. By plotting both lines (one for each equation), you would find that the lines intersect at point (-1, 1) and only at point (-1, 1).
 
 <div style="text-align:center"><img src="../img/la_part1_1.png" /></div>
+<br>
 
-Systems don't always have solutions and those systems are called inconsistent. Systems with solutions are called consistent. Consistent systems can be divided into two sets: systems with one solution and systems with infinitely many solutions.
+Systems don't always have solutions, and those systems are called inconsistent. Parallel lines don't intersect and therefore don't have a solution. Systems with solutions are called consistent. Consistent systems can be divided into two sets: systems with one solution and systems with infinitely many solutions. The only situation in which there is more than one solution to a system is when each equation in the system is equivalent and the lines are identical, resulting in an infinite number of points of intersection between the lines.
 
 ### Scalars, Vectors, Matrices, and Tensors
 Scalars, vectors, matrices, and tensors are terms you must become comfortable with when dealing with Linear Algebra and Machine Learning.
 
-How do these terms get applied? Well, a solution to a linear system (or a set of input paramaters that satisfy each equation of a sytem) gets represented as a vector. In example 1, the solution can be represented in vector form as $$x = \begin{bmatrix}-1 \\ 1\end{bmatrix}$$.
+How do these terms get applied? Well, a solution to a linear system (or a set of input paramaters that satisfies each equation in a sytem) gets represented as a vector. In example 1, the solution can be represented in vector form as $$x = \begin{bmatrix}-1 \\ 1\end{bmatrix}$$.
 
-Systems of equations get represented by matrices, where each row corresponds to a different equation in the system and each entry corresponds to a coefficient in that row's equation. The system in example 1 could be represented in matrix form as:
+Systems of equations get represented by matrices, where each row corresponds to a different equation in the system and each entry of the matrix corresponds to a coefficient in that row's equation. The system in example 1 could be represented by a matrix as such:
 
 $$
 A = 
@@ -53,7 +54,7 @@ A =
 \end{bmatrix}
 $$
 
-That brings us to the infamous matrix equation. By convention, matrix equations look like this:
+That brings us to the infamous matrix equation. The conventional matrix equations look like this:
 
 $$
 Ax = b
