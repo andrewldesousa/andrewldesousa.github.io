@@ -6,7 +6,7 @@ title: "Linear Algebra for Machine Learning (Part 1)"
   src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
 </script>
 
-This series contains the most useful Linear Algebra concepts used in Machine Learning. By mastering these concepts, the Linear Algebra involved in Machine Learning will not get in your way when it comes to understanding ML algorithms at a deep level. This post series is designed for people who want to do Machine Learning and either don't quite meet the Linear Algebra prequisites or haven't has seen Linear Algebra in a while and he/she needs a refresher.
+This series contains the most useful Linear Algebra concepts used in Machine Learning. By mastering these concepts, the Linear Algebra involved in Machine Learning will not get in your way when it comes to understanding ML algorithms at a deep level. This post series is designed for people who want to do Machine Learning and either don't quite meet the Linear Algebra prerequisites or haven't has seen Linear Algebra in a while and need a refresher.
 
 ## Linear Systems and Basic Definitions 
 
@@ -37,7 +37,7 @@ In the example above, there is exactly one solution to the problem. By plotting 
 <div style="text-align:center"><img src="../img/la_part1_1.png" /></div>
 <br>
 
-Systems don't always have solutions, and those systems are called inconsistent. Parallel lines don't intersect and therefore don't have a solution. Systems with solutions are called consistent. Consistent systems can be divided into two sets: systems with one solution and systems with infinitely many solutions. The only situation in which there is more than one solution to a system is when each equation in the system is equivalent and the lines are identical, resulting in an infinite number of points of intersection between the lines.
+Systems don't always have solutions, and those systems are called inconsistent. Parallel lines don't intersect and therefore don't have a solution. Systems with solutions are called consistent. Consistent systems can be divided into two sets: systems with one solution and systems with infinitely many solutions.
 
 ### Scalars, Vectors, Matrices, and Tensors
 Scalars, vectors, matrices, and tensors are terms you must become comfortable with when dealing with Linear Algebra and Machine Learning.
@@ -54,7 +54,7 @@ A =
 \end{bmatrix}
 $$
 
-That brings us to the infamous matrix equation. The conventional matrix equations look like this:
+That brings us to the infamous matrix equation, which conventionally gets represented by:
 
 $$
 Ax = b
@@ -65,5 +65,9 @@ where $$A$$ is the matrix, $$x$$ is the input vector, and $$b$$ is the solution 
 ## Matrix operations
 Matrix operations, which don't require exceptional mathmatical abilties to understand, are probably the most important thing to understand in Linear Algebra.
 
-Now that we've laid out the foundation to Linear Algebra, let's describe how operations among objects like matrices and vectors occur. Like normal operations between scalar values, matrices can be added, multiplied, inverted (though not all can be inverted), and squared.
+Now that we've laid out the foundation to Linear Algebra, let's describe how operations among objects like matrices and vectors occur. Like normal operations between scalar values, matrices can be added, multiplied, inverted (though not all can be inverted), and exponentiated.
+
+For addition, matrices must be the same size. The sum of two matrices is just another matrix with entries equal to the sum of the corresponding entries of the operands (the matrices being added).
+
+For multiplication, the constraint is that the number of columns of the first matrix must be equal to the number of rows in the second matrix. A great resource to see how multiplication works: http://matrixmultiplication.xyz/.
 
