@@ -75,3 +75,5 @@ Another way to think of it is as the multiplication of the a matrix with each co
 $$
 AB = \begin{bmatrix}Ab_1 & Ab_2 & ... & Ab_n \\ \end{bmatrix}
 $$
+
+where $$b_n$$ represents the nth column in $$B$$.
