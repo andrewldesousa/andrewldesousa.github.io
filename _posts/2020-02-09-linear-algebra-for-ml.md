@@ -6,7 +6,7 @@ title: "Linear Algebra for Machine Learning (Part 1)"
   src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
 </script>
 
-This series contains the most useful Linear Algebra concepts used in Machine Learning. By mastering these concepts, the Linear Algebra involved in Machine Learning will not get in your way when it comes to understanding ML algorithms at a deep level. This post series is designed for people who want to do Machine Learning and either don't quite meet the Linear Algebra prerequisites or haven't has seen Linear Algebra in a while and need a refresher.
+This series contains the most useful Linear Algebra concepts used in Machine Learning. By mastering these concepts, the Linear Algebra involved in Machine Learning will not get in the way when it comes to understanding ML algorithms at a deep level. This post series is designed for people who want to do Machine Learning and either don't quite meet the Linear Algebra prerequisites or haven't has seen Linear Algebra in a while and need a refresher.
 
 ## Linear Systems and Basic Definitions 
 
@@ -16,7 +16,7 @@ $$
 a_1x_1 + a_2x_2 + ... + a_nx_n = y
 $$
 
-where $$x_n$$ represents input parameters and $$a_n$$ represents coefficients. Input paramaters are simply the values that get passed to a function. Coefficients are weights that scale the input parameters.
+where $$x_n$$ represents input parameters and $$a_n$$ represents coefficients. Input paramaters are simply the values that get passed to a function. Coefficients are weights that scale the input parameters by some value.
 
 If you were to plot each valid set of $$x$$ inputs for a fixed set of weights and a fixed $$y$$ value, you would find that the graph of the function results in a set of points which could all fit onto a line. That is precisely what it means for an equation to be linear. Any function that doesn't fit on a line is not a linear function. So, when an equation has a term with a degree greater than 1 (for example: $$a_nx_n^2$$), the function would no longer be linear since the plot of the function would not be a line.
 
@@ -32,7 +32,7 @@ $$
 x_1 = -1 \textrm{ and } x_2 = 1 
 $$
 
-In the example above, there is exactly one solution to the problem. By plotting both lines (one for each equation), you would find that the lines intersect at point (-1, 1) and only at point (-1, 1).
+In the example above, there is exactly one solution to the problem. By plotting both lines (one for each equation), you would find that the lines intersect at point (-1, 1) and only at point (-1, 1). Have a look...
 
 <div style="text-align:center"><img src="../img/la_part1_1.png" /></div>
 <br>
@@ -54,7 +54,7 @@ A =
 \end{bmatrix}
 $$
 
-That brings us to the infamous matrix equation, which conventionally gets represented by:
+And... that brings us to the infamous matrix equation, which conventionally gets represented as:
 
 $$
 Ax = b
@@ -63,11 +63,15 @@ $$
 where $$A$$ is the matrix, $$x$$ is the input vector, and $$b$$ is the solution vector. This mapping of $$x$$ to $$b$$ through application of $$A$$ is called a Linear transformation. A linear transformation in Linear Algebra occurs whenever you apply a linear system to an object (an object can be a vector, matrix, or tensor). The image of a linear transformation is $$b$$, the output of applying $$A$$ to $$x$$.
 
 ## Matrix operations
-Matrix operations, which don't require exceptional mathmatical abilties to understand, are probably the most important thing to understand in Linear Algebra.
 
-Now that we've laid out the foundation to Linear Algebra, let's describe how operations among objects like matrices and vectors occur. Like normal operations between scalar values, matrices can be added, multiplied, inverted (though not all can be inverted), and exponentiated.
+Now that we've laid out the foundation to Linear Algebra, let's describe how operations among objects like matrices and vectors occur. Like normal operations between scalar values, matrices can be added, multiplied, inverted (though not all can be inverted), and exponentiated. Matrix operations are probably the most important thing to understand in Linear Algebra.
 
 For addition, matrices must be the same size. The sum of two matrices is just another matrix with entries equal to the sum of the corresponding entries of the operands (the matrices being added).
 
-For multiplication, the constraint is that the number of columns of the first matrix must be equal to the number of rows in the second matrix. A great resource to see how multiplication works: http://matrixmultiplication.xyz/.
+For multiplication, the constraint is that the number of columns of the first matrix must be equal to the number of rows in the second matrix. A great resource to see how multiplication works: http://matrixmultiplication.xyz/. 
 
+Another way to think of it is as the multiplication of the a matrix with each column of the other matrix. For example:
+
+$$
+AB = \begin{bmatrix}Ab_1 & Ab_2 & ... & Ab_n \\ \end{bmatrix}
+$$
