@@ -1,27 +1,26 @@
 ---
-title: "Linear Algebra for Machine Learning (Part 1)"
+title: "Linear Algebra for Machine Learning"
 ---
 
 <script type="text/javascript" async
   src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
 </script>
 
-This series contains the most useful Linear Algebra concepts used in Machine Learning. By mastering these concepts, the Linear Algebra involved in Machine Learning will not get in the way when it comes to understanding ML algorithms at a deep level. This post series is designed for people who want to do Machine Learning and either don't quite meet the Linear Algebra prerequisites or haven't seen Linear Algebra in a while and need a refresher.
+This post contains the most useful Linear Algebra concepts used in Machine Learning. By mastering these concepts, the Linear Algebra involved in Machine Learning will not get in the way when it comes to understanding ML algorithms at a deep level. This post series is designed for people who want to do Machine Learning and either don't quite meet the Linear Algebra prerequisites or haven't seen Linear Algebra in a while and need a refresher.
 
 ## Linear Systems and Basic Definitions 
 
-Let's layout a definion for a linear equation. Here is an example of a linear equation:
+Linear algebra is *the study of linear equations*. Below is an example of a linear equation:
 
 $$
-a_1x_1 + a_2x_2 + ... + a_nx_n = y
+a_1x_1 + a_2x_2 + \ldots + a_nx_n = y
 $$
 
 where $$x_n$$ represents input parameters and $$a_n$$ represents coefficients. Input paramaters are simply the values that get passed to a function. Coefficients are weights that scale the input parameters by some value.
 
-If you were to plot each valid set of $$x$$ inputs for a fixed set of weights and a fixed $$y$$ value, you would find that the graph of the function results in a set of points which could all fit onto a line. That is precisely what it means for an equation to be linear. Any function that doesn't fit on a line is not a linear function. So, when an equation has a term with a degree greater than 1 (for example: $$a_nx_n^2$$), the function would no longer be linear since the plot of the function would not be a line.
+If you were to plot each valid set of $$x$$ inputs given a fixed set of weights (represented by $$a_n$$) and a fixed $$y$$ value, you would find that the graph of the function results in a set of points which could all fit onto a line. Hence the name linear equation. Obviously enough, any function that does not fit onto a line is not a linear function. When an equation contains a term with a degree greater than 1 (for example $$a_nx_n^2$$ being a term of degree 2), the graph of the equation could no longer fit onto a line and the equation would be non-linear.
 
-A system of linear equations is a set of equations in linear form with respect to the same input parameters. A set of input parameters that satisfies each equation in a system gets called a solution to that system. Graphically speaking, a solution refers to a point in which all the lines of a system intersect.
-
+A system of linear equations is *a set of linear equations with respect to the same input parameters*. A set of input parameters that satisfies each equation of a system is a solution to that system. Graphically speaking, a solution refers to a point in which all the lines of a system intersect.
 
 #### Example 1
 $$
