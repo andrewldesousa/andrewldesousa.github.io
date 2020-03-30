@@ -6,7 +6,7 @@ title: "Linear Algebra basics for Machine Learning"
   src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
 </script>
 
-This post contains the most useful Linear Algebra concepts used in Machine Learning. By mastering these concepts, the Linear Algebra involved in Machine Learning will not get in the way when it comes to understanding ML algorithms at a deep level. This post series is designed for people who want to do Machine Learning and either don't quite meet the Linear Algebra prerequisites or haven't seen Linear Algebra in a while and need a refresher.
+This post contains the basics of Linear Algebra for Machine Learning. This post is designed for people who want to do Machine Learning and either don't quite meet the Linear Algebra prerequisites or haven't seen Linear Algebra in a while and need a refresher.
 
 ## Linear Systems and Basic Definitions 
 
