@@ -1,5 +1,5 @@
 ---
-title: "Linear Algebra for Machine Learning"
+title: "Linear Algebra basics for Machine Learning"
 ---
 
 <script type="text/javascript" async
@@ -74,12 +74,4 @@ Now that we've laid out the foundation to Linear Algebra, let's describe how som
 
 For addition between tensors, the sizes of the operands must be the same. Simply put, the sum of two tensors is a tensor of the same size as the operands (the tensors being added), with each entry being the the sum of the corresponding entries in the two tensors.
 
-For multiplication, instead of requiring the two tensors to be the same size, the requirement is that the number of rows of the first tensor is equal to the number of columns of the second tensor. A great [vizualization](http://matrixmultiplication.xyz/) to see how multiplication works. 
-
-Another way to think of it is as the multiplication of the a matrix with each column of the other matrix. For example:
-
-$$
-AB = \begin{bmatrix}Ab_1 & Ab_2 & ... & Ab_n \\ \end{bmatrix}
-$$
-
-where $$b_n$$ represents the nth column in $$B$$.
+For multiplication, I will just link [a great vizualization](http://matrixmultiplication.xyz/) since it will be more clear than words in my opinion. The only thing I should add is that the number of rows in the first matrix must be equal to the number of columns in the second matrix.
