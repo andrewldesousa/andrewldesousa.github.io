@@ -16,11 +16,11 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Andrew's Blog "
+title                    : "Andrew's Website"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Andrew Desousa"
-description              : "A blog about artificial intelligence, software engineering, and academia"
+description              : "Andrew Desousa's personal website"
 url                      : "https://andrewldesousa.github.io"
 baseurl                  : # not sure
 repository               : "andrewldesousa/andrewldesousa.github.io"
