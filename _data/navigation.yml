@@ -2,7 +2,5 @@
 main:
   - title: "Home"
     url: https://andrewldesousa.github.io/
-  - title: "About"
-    url: https://andrewldesousa.github.io/about/
   - title: "Portfolio"
     url: https://andrewldesousa.github.io/portfolio/
