@@ -2,11 +2,11 @@
 title: "Mesh R-CNN"
 excerpt: "A playground for Mesh R-CNN with model retrieval and texturing additions"
 header:
-  image: /img/mesh_rcnn_header.png
+  image: /img/mesh_rcnn_header.jpg
   teaser: /img/mesh_rcnn_teaser.png
 sidebar:
   - title: "Responsibilities"
-    text: "Development of an Alexa skill and the API used by it to invoke NLP models"
+    text: "Texturing, API development, visualizations"
 gallery:
   - url: /assets/images/unsplash-gallery-image-1.jpg
     image_path: assets/images/unsplash-gallery-image-1-th.jpg
