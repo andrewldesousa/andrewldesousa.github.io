@@ -2,8 +2,8 @@
 title: "FastSS"
 excerpt: "An Alexa skill that allows for word similarity queries and summarization of recent Reddit posts"
 header:
-  image: /assets/images/foo-bar-identity.jpg
-  teaser: /assets/images/foo-bar-identity-th.jpg
+  image: /assets/images/fastss_header.jpeg
+  teaser: /assets/images/fastss_header.jpg.jpeg
 sidebar:
   - title: "Responsibilities"
     text: "Development of an Alexa skill and the API used by it to invoke NLP models"
