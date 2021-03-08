@@ -1,6 +1,6 @@
 ---
-title: "Mesh R-CNN"
-excerpt: "A playground for Mesh R-CNN with model retrieval and texturing additions"
+title: "Bundle Adjustment"
+excerpt: "A Structure from Motion Implementation"
 header:
   image: /img/mesh_rcnn_header.png
   teaser: /img/mesh_rcnn_teaser.png
