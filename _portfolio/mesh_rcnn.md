@@ -3,7 +3,7 @@ title: "Mesh R-CNN"
 excerpt: "A playground for Mesh R-CNN with model retrieval and texturing additions"
 header:
   image: /img/fastss_header.jpeg
-  teaser: /img/fastss_header.jpg.jpeg
+  teaser: /img/fastss_header.jpeg
 sidebar:
   - title: "Responsibilities"
     text: "Development of an Alexa skill and the API used by it to invoke NLP models"
