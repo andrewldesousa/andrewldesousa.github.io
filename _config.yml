@@ -297,7 +297,7 @@ collections:
     output: true
     permalink: /:collection/:path/
     order:
-      - fastss.md
-      - mesh_rcnn.md
-      - smart_contract_survey.md
-      - bundle_adjustment.md
+      - _portfolio/fastss.md
+      - _portfolio/mesh_rcnn.md
+      - _portfolio/smart_contract_survey.md
+      - _portfolio/bundle_adjustment.md
