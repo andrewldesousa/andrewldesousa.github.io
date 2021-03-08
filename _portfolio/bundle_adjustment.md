@@ -1,10 +1,9 @@
-
 ---
-title: "FastSS"
-excerpt: "An Alexa skill that allows for word similarity queries and summarization of recent Reddit posts"
+title: "Mesh R-CNN"
+excerpt: "A playground for Mesh R-CNN with model retrieval and texturing additions"
 header:
-  image: /img/fastss_header.jpeg
-  teaser: /img/fastss_header.jpeg
+  image: /img/mesh_rcnn_header.png
+  teaser: /img/mesh_rcnn_teaser.png
 sidebar:
   - title: "Responsibilities"
     text: "Development of an Alexa skill and the API used by it to invoke NLP models"
