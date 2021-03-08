@@ -11,18 +11,6 @@ sidebar:
     url: /docs/mesh_rcnn_report.pdf
   - title: "Code"
     url: https://github.com/andrewldesousa/Mesh-R-CNN
-  - title: Customization
-    children:
-      - title: "Configuration"
-        url: /docs/configuration/
-      - title: "Navigation"
-        url: /docs/navigation/
-      - title: "UI Text"
-        url: /docs/ui-text/
-      - title: "Authors"
-        url: /docs/authors/
-      - title: "Layouts"
-        url: /docs/layouts/
   
 ---
 
