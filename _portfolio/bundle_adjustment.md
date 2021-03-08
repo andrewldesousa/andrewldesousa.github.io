@@ -2,8 +2,8 @@
 title: "Bundle Adjustment"
 excerpt: "A Structure from Motion Implementation"
 header:
-  image: /img/mesh_rcnn_header.png
-  teaser: /img/mesh_rcnn_teaser.png
+  image: /img/bundle_adjustment_header.png
+  teaser: /img/bundle_adjustment_header.png
 sidebar:
   - title: "Responsibilities"
     text: "Development of an Alexa skill and the API used by it to invoke NLP models"
