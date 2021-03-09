@@ -6,12 +6,7 @@ header:
   teaser: /img/mesh_rcnn_teaser.png
 sidebar:
   - title: "Responsibilities"
-    text: "Texturing, API development, visualizations"
-  - title: "Report"
-    url: /docs/mesh_rcnn_report.pdf
-  - title: "Code"
-    url: https://github.com/andrewldesousa/Mesh-R-CNN
-  
+    text: "Texturing, API development, visualizations"  
 ---
 
 ## Mesh R-CNN
