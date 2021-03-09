@@ -2,7 +2,6 @@
 title: "Mesh R-CNN"
 excerpt: "A playground for Mesh R-CNN with model retrieval and texturing additions"
 header:
-  image: /img/mesh_rcnn_header.jpg
   teaser: /img/mesh_rcnn_header.jpg
 sidebar:
   - title: "Responsibilities"
@@ -13,7 +12,7 @@ This project contains the development of a playground around Mesh R-CNN as well 
 
 My contributions: API development, texturing (UV mapping and smoothing), and extending Mesh R-CNN visualizations.
 
-For more information regarding the original Mesh R-CNN work, visit this [link](https://gkioxari.github.io/meshrcnn/)
+For more information regarding the original Mesh R-CNN work, visit this [link](https://gkioxari.github.io/meshrcnn/). You can find the original paper and code there.
 
 ## UV Mapping for Mesh R-CNN
 
