@@ -20,5 +20,5 @@ A straight forward extension to Mesh R-CNN was to apply UV mapping techniques in
 
 ![Example](/img/mesh_rcnn_teaser.png)
 
-### Additions Information
+## Additional Information
 If you would like to learn more about this project, checkout our [report](/docs/mesh_rcnn_report.pdf). To see the server side of this application, visit [here](https://github.com/andrewldesousa/Mesh-R-CNN).
