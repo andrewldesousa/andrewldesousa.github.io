@@ -22,3 +22,5 @@ A straight forward extension to Mesh R-CNN was to apply UV mapping techniques in
 
 ## Additional Information
 If you would like to learn more about this project, checkout our [report](/docs/mesh_rcnn_report.pdf). To see the server side of this application, visit [here](https://github.com/andrewldesousa/Mesh-R-CNN).
+
+This project was completed by our group for the 3D Scanning and Spatial Learning practical course (Winter semester 2020/21) at the Technical University of Munich.
