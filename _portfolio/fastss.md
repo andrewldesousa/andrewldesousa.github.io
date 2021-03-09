@@ -2,7 +2,6 @@
 title: "FastSS"
 excerpt: "An Alexa skill that allows for word similarity queries and summarization of recent Reddit posts"
 header:
-  image: /img/fastss_header.jpeg
   teaser: /img/fastss_header.jpeg
 sidebar:
   - title: "Responsibilities"
