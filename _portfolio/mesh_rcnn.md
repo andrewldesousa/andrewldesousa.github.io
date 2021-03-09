@@ -14,7 +14,7 @@ My contributions: API development, texturing (UV mapping and smoothing), and ext
 
 For more information regarding the original Mesh R-CNN work, visit this [link](https://gkioxari.github.io/meshrcnn/). You can find the original paper and code there.
 
-## UV Mapping for Mesh R-CNN
+## UV Mapping with Mesh R-CNN
 
 A straight forward extension to Mesh R-CNN was to apply UV mapping techniques in order to maintain some of the qualitative information of the original object that the predicted mesh represents. Using the by projecting the mesh back into 2D via the camera parameters, we can use the pixel color information and apply it to the mesh. Here is an example of that:
 
