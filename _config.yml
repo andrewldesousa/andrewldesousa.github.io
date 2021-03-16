@@ -108,8 +108,8 @@ analytics:
 # Site Author
 author:
   name             : "Andrew Desousa"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : ""
+  avatar           : "/img/neural_style_portrait.png"
+  bio              : "An engineer and student of Computer Science"
   location         : "Munich, Germany"
   email            : "desousa.andrew11@gmail.com"
   links:
