@@ -19,9 +19,9 @@ function App() {
           <div>
             <h3>Projects</h3>
             <p>
-              At Uber, I worked on projects involving large scale distributed systems, offering core Computer Vision services to various use cases throughout the company. This involved writing microservices in Go, writing Python code, designing, implementing A/B tests, and productionalizing new project.
+              At Uber, I worked on projects involving large scale distributed systems, offering core Computer Vision services to various use cases throughout the company. This involved writing microservices in Go, Python, and Java, designing new systems, implementing A/B tests, and productionalizing features at global scale.
               <br></br><br></br>
-              At BMW, I worked on a research team focused on utilizing synthetic data to train machine learning models for autonomous driving. This project involved writing PyTorch code, training large Computer Vision models on NVIDIA DGX machines, running and evaluating experiments, writing Docker containers, and presenting my work to other researchers.
+              At BMW, I worked on a research team focused on utilizing synthetic data to train machine learning models for autonomous driving. This project involved writing PyTorch code, training large Computer Vision models on NVIDIA DGX machines, writing Docker containers, and presenting my work to other researchers.
               <br></br><br></br>
               During my studies I worked at several companies other companies, mostly working on machine learning and backend projects. Aside from that, some code samples/side projects I've worked on can be found on my <a href="https://github.com/andrewldesousa"> GitHub</a>.
             </p>
