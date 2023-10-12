@@ -3,7 +3,6 @@ body {
   margin: 0;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
-  font-weight: 400;
   color: #fafafa;
   overflow: hidden;
 }
@@ -15,4 +14,72 @@ body {
 a {
   color: inherit;
   text-decoration: none;
+}
+
+.page-container {
+  background: linear-gradient(-45deg,#141E30,#243B55);
+  background-size: 150% 150%;
+  animation: gradient-animation 7s ease infinite;
+
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  padding: 5rem 0;
+  flex: 1 1;
+  flex-direction: column;
+  font-family: Roboto,sans-serif;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  height: 50px;
+  border-top: 1px solid #36454f;
+}
+
+.footer > a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 0.5rem;
+}
+
+.home-grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 700px;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 10% 50%
+  }
+
+  50% {
+    background-position: 100% 50%
+  }
+
+  to {
+    background-position: 10% 50%
+  }
+}
+
+.link-section {
+  display: flex;
+  justify-content: start;
+}
+
+.link-section > a {
+  margin-right: 1rem;
+  text-decoration: underline;
 }
