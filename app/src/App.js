@@ -9,7 +9,6 @@ function App() {
         <h1>Andrew</h1>
         <div className="link-section">
           <Link to="/">About</Link>
-          <Link to="/projects">Projects</Link>
         </div>
         <div className="home-grid">
           <div>
