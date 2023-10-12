@@ -1,5 +1,6 @@
 import { Outlet, Link } from "react-router-dom";
 import Layout from "./Layout";
+import ModelViewer from "../components/ModelViewer";
 
 function Projects() {
   return (
@@ -8,6 +9,7 @@ function Projects() {
         <div>
           <h2>Projects</h2>
           <p style={{width:"700px"}}>Coming soon...</p> {/* This is a hack */}
+          <ModelViewer />
         </div>
       </div>
   </Layout>
