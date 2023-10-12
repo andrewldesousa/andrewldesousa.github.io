@@ -17,8 +17,7 @@ const Scene = () => {
     loader.setMaterials(materials);
   });
 
-  console.log(obj);
-  return <primitive object={obj} scale={0.4} />;
+  return <primitive object={obj} scale={0.1} />;
 };
 
 export default function ModelViewer() {
