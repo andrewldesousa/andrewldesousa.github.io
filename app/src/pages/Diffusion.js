@@ -4,7 +4,7 @@ import Layout from '../components/Layout';
 function App() {
   return (
     <Layout>
-      <h3>
+      <h3 className="post_header">
         Diffusion Models Deep Dive
       </h3>
       <p>

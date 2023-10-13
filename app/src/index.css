@@ -130,6 +130,16 @@ img {
   border-radius: 4px;
 }
 
+.post_header {
+  display: block;
+  font-size: 24px;
+  line-height: 1.35;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: -0.1px;
+  text-decoration: unset;
+}
+
 
 .posts_section__post_card__title {
   margin: 0;
