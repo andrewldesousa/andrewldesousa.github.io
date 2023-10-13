@@ -8,7 +8,7 @@ function Layout({ children }) {
         <h1 className="header__title">Andrew</h1>
         <div className="header__link-section">
           <div className="header__page-link-section">
-            <Link to="/" className="header__link">About</Link>
+            <Link to="/" className="header__link">Home</Link>
           </div>
         
           <div className="header__icon_link_section">
@@ -32,8 +32,6 @@ function Layout({ children }) {
       <main>
         {children}
       </main>
-
-        
     </div>
   );
 }
