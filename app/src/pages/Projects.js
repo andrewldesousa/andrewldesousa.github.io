@@ -1,5 +1,5 @@
 import { Outlet, Link } from "react-router-dom";
-import Layout from "./Layout";
+import Layout from "../components/Layout";
 import ModelViewer from "../components/ModelViewer";
 
 function Projects() {
