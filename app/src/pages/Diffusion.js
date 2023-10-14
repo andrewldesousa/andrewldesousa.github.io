@@ -5,17 +5,18 @@ import Latex from 'react-latex';
 function App() {
   return (
     <Layout>
-      <h3 className="post_header">Diffusion Models Notes</h3>
+      <h2 className="post_header">Diffusion Models</h2>
+      <h4><b>Note: this post is a work in progress.</b></h4>
       <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </p>
-      <br></br>
-
+        Diffusion models are a class of deep generative models capable of modeling complex distributions (e.g. image datasets). They define a Markov chain over a sequence of latent variables, where each latent variable is a noisy version of the previous latent variable. The sequence of latent variables is then used to generate the data.
+      </p>  
+      <div className="post__figure">
+        <img src="diffusion_figure.png" height="140px" width="600px"></img>
+        <p>Figure 1: Diffusion model</p>
+      </div>
       <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        What distinguishes diffusion models from other types of latent variable models is that the approximate posterior, called the forward process or diffusion process, is fixed to a Markov chain that gradually adds Gaussian noise to the data according to a variance schedule. This is in contrast to other latent variable models, such as VAEs, where the approximate posterior is a neural network that takes in the data as input and outputs the parameters of a latent distribution.
       </p>
-
-      <Latex displayMode={true}>$$(3\times 4) \div (5-3)$$</Latex>
 
       <h4>
         Helpful Resources
