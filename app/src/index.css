@@ -30,7 +30,6 @@ a {
   align-items: center;
 
   width: 50%;
-
   min-height: 100vh;
 }
 
@@ -181,4 +180,36 @@ p {
   letter-spacing: -0.1px;
   line-height: 1.53;
   text-decoration: unset;
+}
+
+
+.posts_section__post_card__date {
+  margin: 0px;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: -0.1px;
+  line-height: 1.53;
+  text-decoration: unset;
+  margin-left: 8px;
+}
+
+h4 {
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.6;
+  letter-spacing: -0.1px;
+  text-decoration: unset;
+  margin-bottom: .2rem;
+}
+
+
+ul {
+  padding-left: 1.2rem;
+}
+
+
+ul > a {
+  text-decoration: underline;
 }

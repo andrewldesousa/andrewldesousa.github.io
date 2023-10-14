@@ -24,7 +24,6 @@ function Layout({ children }) {
             </a>
           </div>
         </div>
-
       </header>
       
       <main>
