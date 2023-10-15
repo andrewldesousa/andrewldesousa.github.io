@@ -13,7 +13,8 @@ root.render(
   <BrowserRouter>
     <Routes>
       <Route index element={<Home />} />
-      <Route path="diffusion" element={<DiffusionModels />} />
+      <Route path="*" element={<Home />} />
+      <Route path="/diffusion" element={<DiffusionModels />} />
     </Routes>
   </BrowserRouter>
 );
