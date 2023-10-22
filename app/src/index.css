@@ -41,9 +41,15 @@ ul {
   padding-left: 1.2rem;
 }
 
-ul > a {
+li > a {
   text-decoration: underline;
 }
+
+
+li > a:hover {
+  color: rgb(84, 93, 97);
+}
+
 
 p {
   margin: 0px;
@@ -93,6 +99,12 @@ p {
   letter-spacing: -0.1px;
   font-weight: 700;
   font-style: normal;
+  margin-right: .8rem;
+}
+
+.header__link:last-child {
+  /* important */
+  margin-right: 0;
 }
 
 .header__link:hover {
@@ -128,6 +140,10 @@ p {
 }
 
 /* Posts Section */
+.posts-section{
+  width: 100%;
+}
+
 .posts-section__title {
   display: block;
   font-style: normal;
@@ -188,6 +204,13 @@ p {
   margin: 0;
 }
 
+.post__header, h4, ul {
+  display: block;
+  width: 100%;
+
+  margin: .4em 0;
+}
+
 .posts-section__post-card__description {
   margin: 0px;
   font-size: 15px;
@@ -237,4 +260,87 @@ p {
 .post__figure > img {
   display: block;
   margin: .5rem 0;
+}
+
+
+
+textarea {
+  max-height: 200px;
+  resize: none;
+  border-color: #8e8ea0;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  height: 56px;
+  overflow-y: hidden;
+  width: 100%;
+  border: 0 solid #d9d9e3;
+  box-sizing: border-box;
+  column-count: initial !important;
+  writing-mode: horizontal-tb !important;
+  cursor: text;
+  white-space-collapse: preserve;
+  text-wrap: wrap;
+  overflow-wrap: break-word;
+  padding: .3rem; 
+  border: 0 solid #d9d9e3;
+  box-shadow: 0 0 15px rgba(0,0,0,.1);
+  border-color: rgba(0,0,0,.1);
+  border-radius: 0.75rem;
+  white-space: normal;
+  text-align: justify;
+  text-justify: center;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+
+.prompt-box {
+  position: relative;
+  width: 100%;
+  margin: 1.5em 0;
+}
+
+
+
+.prompt-box > button {
+  display: flex;
+  position: absolute;
+  top: 50%;
+  transform: translate(0,-50%);
+  right: 0;
+  margin-right: 10px;
+  cursor: pointer;
+  width: 2rem;
+  height: 2rem;
+}
+
+
+.chat-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  width: 45%;
+  flex-grow: 1;
+}
+
+
+.alternative-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  width: 100vw;
+  height: 3rem;
+  align-items: center;
+  padding: 0 2rem;
+}
+
+
+.alternative-header > a {
+  display: block;
+}
+
+.alternative-header > a:hover {
+  color: rgb(0, 127, 245);
 }

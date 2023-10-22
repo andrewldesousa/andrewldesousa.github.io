@@ -1,7 +1,7 @@
 import Layout from '../components/Layout';
 
 
-function App() {
+function Diffusion() {
   return (
     <Layout>
       <h2 className="post__header">Diffusion Models</h2>
@@ -20,11 +20,11 @@ function App() {
         Helpful Resources
       </h4>
       <ul>
-        <a href="https://arxiv.org/abs/2006.11239"><li>Denoising Diffusion Probabilistic Models</li></a>
-        <a href="https://arxiv.org/abs/2208.11970"><li>Understanding Diffusion Models: A Unified Perspective</li></a>
+        <li><a href="https://arxiv.org/abs/2006.11239">Denoising Diffusion Probabilistic Models</a></li>
+        <li><a href="https://arxiv.org/abs/2208.11970">Understanding Diffusion Models: A Unified Perspective</a></li>
       </ul>
     </Layout>
   );
 }
 
-export default App;
+export default Diffusion;
