@@ -9,7 +9,6 @@ function Layout({ children }) {
         <div className="header__link-section">
           <div className="header__page-link-section">
             <Link to="/" className="header__link">Home</Link>
-            <Link to="/" className="header__link">Notes</Link>
           </div>
         
           <div className="header__icon-link-section">

@@ -15,6 +15,7 @@ root.render(
   <HashRouter>
     <Routes>
       <Route index element={<Home />} />
+      <Route path="/posts" element={<Chat />} />
       <Route path="/diffusion" element={<Diffusion />} />
       <Route path="/chat" element={<Chat />} />
     </Routes>
