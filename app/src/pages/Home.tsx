@@ -9,7 +9,7 @@ export default function Home (): React.ReactElement {
       </p>
 
       <p>
-        My ambition is to work on technically interesting projects that have a positive impact on society. My technical interests are in Machine Learning, Computer Vision, and Large-scale Distributed Systems.
+        My technical interests are in Machine Learning, Computer Vision, and Large-scale Distributed Systems.
       </p>
 
       <p>
