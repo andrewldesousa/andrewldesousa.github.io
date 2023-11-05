@@ -5,7 +5,7 @@ export default function Layout ({ children }): React.ReactElement {
   return (
     <main className="page-container">
       <header className="header">
-        <h1 className="header__title">Andrew</h1>
+        <h1 className="header__title">Andrew Desousa</h1>
         <div className="header__link-section">
           <div className="header__page-link-section">
             <Link to="/" className="header__link">Home</Link>
