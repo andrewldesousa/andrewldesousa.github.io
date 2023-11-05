@@ -1,16 +1,16 @@
-import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom'
+import * as React from 'react'
 
-
-function Layout({ children }) {
+export default function Layout ({ children }): React.ReactElement {
   return (
-    <main className="page-container">  
+    <main className="page-container">
       <header className="header">
         <h1 className="header__title">Andrew</h1>
         <div className="header__link-section">
           <div className="header__page-link-section">
             <Link to="/" className="header__link">Home</Link>
           </div>
-        
+
           <div className="header__icon-link-section">
             <a href="https://www.linkedin.com/in/andrewldesousa/" className="header__icon-link-section__icon-link">
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-linkedin" viewBox="0 0 16 16">
@@ -27,7 +27,5 @@ function Layout({ children }) {
       </header>
       {children}
     </main>
-  );
+  )
 }
-
-export default Layout;
