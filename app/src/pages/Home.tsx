@@ -5,7 +5,7 @@ export default function Home (): React.ReactElement {
   return (
     <Layout>
       <p>
-        I am a Software Engineer based in San Francisco, California. I currently work at <a href="https://www.microsoft.com/en-us/">Microsoft</a>.
+        I am a Software Engineer based in San Francisco, California.
       </p>
 
       <p>
