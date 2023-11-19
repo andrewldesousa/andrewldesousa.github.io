@@ -3,7 +3,7 @@ import * as React from 'react'
 
 export default function Layout ({ children }): React.ReactElement {
   return (
-    <main className="page-container">
+    <>
       <header className="header">
         <h1 className="header__title">Andrew Desousa</h1>
         <div className="header__link-section">
@@ -25,7 +25,10 @@ export default function Layout ({ children }): React.ReactElement {
           </div>
         </div>
       </header>
-      {children}
-    </main>
+      
+      <main className="page-container">
+        {children}
+      </main>
+    </>
   )
 }

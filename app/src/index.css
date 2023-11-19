@@ -90,9 +90,7 @@ li > a:hover {
 .header {
   margin-top: 5%;
   margin-bottom: 3%;
-  width: 100vw;
-  padding-left: 50%;
-  padding-right: 50%;
+  width: 50%;
 
 
   flex-direction: column;
