@@ -19,7 +19,6 @@ const defaultTheme = createTheme({
 })
 
 export default function StickyFooter (): JSX.Element {
-
   return (
     <ThemeProvider theme={defaultTheme}>
       <Box
@@ -31,13 +30,18 @@ export default function StickyFooter (): JSX.Element {
       >
         <CssBaseline />
         <Container sx={{ mt: 8, mb: 2, marginTop: 0 }} disableGutters maxWidth={false}>
-          <Container sx={{ mt: 8, mb: 2, marginBottom: 3,
-                borderBottom: '.5px solid #000000' }} disableGutters maxWidth={false}>
-            <Container sx={{ mt: 8, mb: 2, marginBottom: '.2rem'}} maxWidth="md">
+          <Container sx={{
+            mt: 8,
+            mb: 2,
+            marginBottom: 3,
+            borderBottom: '.5px solid #000000'
+          }}
+          disableGutters maxWidth={false}>
+            <Container sx={{ mt: 8, mb: 2, marginBottom: '.2rem' }} maxWidth="sm">
               <Typography variant="h2" component="h1" gutterBottom>
                 Andrew Desousa
               </Typography>
-            
+
               <Stack direction="row" spacing={0.1}>
                 <IconButton href="https://github.com/andrewldesousa" color="inherit" size="small">
                   <GitHub fontSize="small"/>
@@ -50,7 +54,7 @@ export default function StickyFooter (): JSX.Element {
             </Container>
           </Container>
 
-          <Container component="main" sx={{ mt: 8, mb: 2, marginTop: '1rem' }} maxWidth="md">
+          <Container component="main" sx={{ mt: 8, mb: 2, marginTop: '1rem' }} maxWidth="sm">
             <Typography variant="body1">
               I am a Software Engineer based in San Francisco, California.
               <br /><br />
@@ -61,7 +65,7 @@ export default function StickyFooter (): JSX.Element {
 
               Other interests: guitar, travel, video games, and reading.
             </Typography>
-          </Container>          
+          </Container>
         </Container>
       </Box>
     </ThemeProvider>
