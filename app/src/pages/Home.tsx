@@ -90,7 +90,7 @@ export default function Home (): JSX.Element {
           <ListItemIcon>
             <FiberManualRecordIcon fontSize="small" style={{ fontSize: 10 }} />
           </ListItemIcon>
-          <ListItemText primary="I currently work as a Software Engineer on Microsoft building retrieval augmented generation systems" />
+          <ListItemText primary="I currently work as a Software Engineer at Microsoft building retrieval augmented generation (RAG) systems for business use-cases" />
         </ListItem>
         <ListItem>
           <ListItemIcon>
