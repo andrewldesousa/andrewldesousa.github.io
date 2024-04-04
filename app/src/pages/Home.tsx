@@ -1,73 +1,112 @@
 import * as React from 'react'
 import CssBaseline from '@mui/material/CssBaseline'
-import { createTheme, ThemeProvider } from '@mui/material/styles'
 import Box from '@mui/material/Box'
 import Typography from '@mui/material/Typography'
 import Container from '@mui/material/Container'
 import Link from '@mui/material/Link'
-import { GitHub, LinkedIn } from '@mui/icons-material'
+import { GitHub, LinkedIn, Email } from '@mui/icons-material'
 import { IconButton } from '@mui/material'
 import Stack from '@mui/material/Stack'
+import Avatar from '@mui/material/Avatar'
+import { purple } from '@mui/material/colors'
+import List from '@mui/material/List'
+import ListItem from '@mui/material/ListItem'
+import ListItemText from '@mui/material/ListItemText'
+import ListItemIcon from '@mui/material/ListItemIcon'
+import FiberManualRecordIcon from '@mui/icons-material/FiberManualRecord'
 
-const defaultTheme = createTheme({
-  typography: {
-    h2: {
-      fontSize: '2rem',
-      fontWeight: 500
-    }
-  }
-})
-
-export default function StickyFooter (): JSX.Element {
+export default function Home (): JSX.Element {
   return (
-    <ThemeProvider theme={defaultTheme}>
-      <Box
-        sx={{
-          display: 'flex',
-          flexDirection: 'column',
-          minHeight: '100vh'
-        }}
-      >
-        <CssBaseline />
-        <Container sx={{ mt: 8, mb: 2, marginTop: 0 }} disableGutters maxWidth={false}>
-          <Container sx={{
-            mt: 8,
-            mb: 2,
-            marginBottom: 3,
-            borderBottom: '.5px solid #000000'
-          }}
-          disableGutters maxWidth={false}>
-            <Container sx={{ mt: 8, mb: 2, marginBottom: '.2rem' }} maxWidth="sm">
-              <Typography variant="h2" component="h1" gutterBottom>
+    <Box
+      sx={{
+        display: 'flex',
+        flexDirection: 'column',
+        minHeight: '100vh',
+        paddingTop: '50px'
+      }}
+    >
+      <CssBaseline />
+
+      <Container maxWidth="sm">
+        <Stack
+          sx={{ marginBottom: '60px' }}
+          justifyContent="space-between"
+          direction="row">
+          <Stack direction="row">
+            <Avatar
+              src="https://avatars.githubusercontent.com/u/33275002?v=4"
+              sx={{
+                width: 72,
+                height: 72,
+                backgroundColor: 'rgb(152, 160, 250)'
+              }}/>
+            <Stack sx = {{ marginLeft: '25px' }}
+              direction="column" spacing={0.1}>
+              <Typography
+                variant="h1" component="h1" gutterBottom>
                 Andrew Desousa
               </Typography>
-
-              <Stack direction="row" spacing={0.1}>
-                <IconButton href="https://github.com/andrewldesousa" color="inherit" size="small">
-                  <GitHub fontSize="small"/>
+              <Stack justifyContent="flex-start" direction="row">
+                <IconButton
+                  size="small"
+                  href="https://github.com/andrewldesousa" color="inherit">
+                  <GitHub fontSize="small" />
                 </IconButton >
 
-                <IconButton href="https://www.linkedin.com/in/andrewldesousa/" color="inherit" size="small">
-                  <LinkedIn fontSize="small"/>
-                </IconButton >
+                <IconButton
+                  size="small"
+                  href="https://www.linkedin.com/in/andrewldesousa/" color="inherit">
+                  <LinkedIn fontSize="small" />
+                </IconButton>
+
+                <IconButton
+                  size="small"
+                  href="mailto:desousa.andrew11@gmail.com" color="inherit">
+                  <Email fontSize="small" />
+                </IconButton>
               </Stack>
-            </Container>
-          </Container>
+              </Stack>
+            </Stack>
 
-          <Container component="main" sx={{ mt: 8, mb: 2, marginTop: '1rem' }} maxWidth="sm">
-            <Typography variant="body1">
-              I am a Software Engineer based in San Francisco, California.
-              <br /><br />
-              My technical interests are in Machine Learning, Computer Vision, and Large-scale Distributed Systems.
-              <br /><br />
-              Previously, I worked on an identity verification platform at <Link href="https://www.uber.com/">Uber</Link>. In 2022, I graduated from the Technical University of Munich with a Master's degree in Computer Science. The focus of my studies was on Machine Learning and Computer Vision. I did my thesis on Synthetic-to-Real Domain Adaptation for Computer Vision in cooperation with BMW Group. Prior to that, I worked part-time and as an intern at several other companies during my studies (see my LinkedIn for more details).
-              <br /><br />
+          </Stack>
 
-              Other interests: guitar, travel, video games, and reading.
-            </Typography>
-          </Container>
-        </Container>
-      </Box>
-    </ThemeProvider>
+        <Typography variant="body1">
+          Some things about me:
+        </Typography>
+        <List>
+        <ListItem>
+          <ListItemIcon>
+            <FiberManualRecordIcon fontSize="small" style={{ fontSize: 10 }} />
+          </ListItemIcon>
+          <ListItemText primary="I am based in San Francisco, California" />
+        </ListItem>
+        <ListItem>
+          <ListItemIcon>
+            <FiberManualRecordIcon fontSize="small" style={{ fontSize: 10 }} />
+          </ListItemIcon>
+          <ListItemText primary="I grew up in South Florida" />
+        </ListItem>
+        <ListItem>
+          <ListItemIcon>
+            <FiberManualRecordIcon fontSize="small" style={{ fontSize: 10 }} />
+          </ListItemIcon>
+          <ListItemText primary="I currently work as a Software Engineer on Microsoft building retrieval augmented generation systems" />
+        </ListItem>
+        <ListItem>
+          <ListItemIcon>
+            <FiberManualRecordIcon fontSize="small" style={{ fontSize: 10 }} />
+          </ListItemIcon>
+          <ListItemText primary="I am really interested in Machine Learning technology!" />
+        </ListItem>
+        <ListItem>
+          <ListItemIcon>
+            <FiberManualRecordIcon fontSize="small" style={{ fontSize: 10 }} />
+          </ListItemIcon>
+          <ListItemText primary="I earned a Computer Science degrees from the Technical University of Munich and the University of Miami" />
+        </ListItem>
+        {/* Add more ListItem components for more interests */}
+      </List>
+      </Container>
+    </Box>
   )
 }
