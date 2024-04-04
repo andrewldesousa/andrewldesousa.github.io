@@ -102,7 +102,7 @@ export default function Home (): JSX.Element {
           <ListItemIcon>
             <FiberManualRecordIcon fontSize="small" style={{ fontSize: 10 }} />
           </ListItemIcon>
-          <ListItemText primary="I earned a Computer Science degrees from the Technical University of Munich and the University of Miami" />
+          <ListItemText primary="I earned Computer Science degrees from the Technical University of Munich and the University of Miami" />
         </ListItem>
         {/* Add more ListItem components for more interests */}
       </List>
